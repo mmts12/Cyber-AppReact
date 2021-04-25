@@ -1,0 +1,29 @@
+.filter-container{
+  display: flex;
+  justify-content: center;
+  
+}
+.form-filter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .data-source {
+    background-color: #e0e0e0;
+    font-family: Roboto-Regular;
+    border-radius: 3px;
+    text-align: center;
+  }
+  &>div{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.statistic-btn>button{
+  height: 49px;
+  width: 195px;
+}
+
+.data-source-container {
+  display: flex;
+  justify-content: space-between;
+}

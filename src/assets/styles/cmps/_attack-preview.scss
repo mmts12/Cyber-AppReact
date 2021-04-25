@@ -1,0 +1,20 @@
+.attack-preview {
+  border: 1px solid rgb(197, 197, 197);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  &:hover {
+    transform: scale(1.01);
+    border: 1px solid gray;
+  }
+}
+
+.headline {
+  font-weight: bold;
+}
+.actions {
+  display: flex;
+  margin-top: 10px;
+}
+.details-btn {
+  margin-inline-start: 10px;
+}

@@ -1,0 +1,26 @@
+.details-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+    .inline{
+        display: flex;
+        
+    }
+    .data-source-tag{
+        text-decoration: underline;
+        color: blue;
+        cursor: pointer;
+        margin-inline-end: 10px;
+        &:hover{
+            font-weight: 500;
+        }
+    }
+    .export-btn{
+        margin-top: 10px;
+    }
+    .details-actions{
+        display: flex;
+        justify-content: space-between;
+    }
+}

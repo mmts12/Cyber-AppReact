@@ -1,0 +1,19 @@
+.app-container{
+    padding: 20px 40px;
+    &>h1{
+        font-family: ChelaOne-Regular;
+        color: rgb(61, 61, 61);
+    }
+}
+
+.loading-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

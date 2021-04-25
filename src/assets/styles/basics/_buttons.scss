@@ -1,0 +1,104 @@
+.btn1 {
+    color: white;
+    height: 32px;
+    line-height: 32px;
+    text-decoration: none;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    box-shadow: none;
+    border: 0;
+    display: flex;
+    font-weight: 700;
+    border-radius: 3px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    &:focus{
+        outline: none;
+    }
+    @include for-mobile-layout{
+        margin: 0 4px 0 0;
+    }
+}
+
+.btn1-span {
+    display: inline-block;
+    fill: inherit;
+    flex-shrink: 0;
+    line-height: 1;
+    margin: 4px;
+    @include for-mobile-layout{
+        margin: 0;
+    }
+}
+
+.btn2 {
+    color: $clr1;
+    height: 32px;
+    line-height: 32px;
+    text-decoration: none;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    box-shadow: none;
+    border: 1px solid $clr1;
+    display: flex;
+    font-weight: 700;
+    border-radius: 3px;
+    margin: 0.5rem;
+    padding: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.save-btn {
+    background-color: #5aac44;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+.clear-btn {
+    color: #6b778c;
+    height: 32px;
+    line-height: 20px;
+    width: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: bottom;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    padding: 6px 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    &:hover {
+        height: 32px;
+        outline: 0;
+        // background-color: rgba(9, 30, 66, 0.08);
+        color: #42526e;
+        overflow: hidden;
+        // padding: 4px;
+        // margin: 4px;
+        width: 32px;
+        top: 0;
+        right: 0;
+        transition: background-color 85ms, color 85ms;
+    }
+}
